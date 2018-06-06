@@ -83,7 +83,7 @@ char* util::MakeFancy(const char* string)
 			*(pu++) = ' ';
 
 		trim = 0;
-		abv	 = *string >= 'A' && *string <= 'Z' && *string > = 'A' && *string <= 'Z';
+		abv	 = *string >= 'A' && *string <= 'Z' && *string >= 'A' && *string <= 'Z';
 
 		if (*string == '_')
 		{
